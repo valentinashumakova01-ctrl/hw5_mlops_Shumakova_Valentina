@@ -1,0 +1,15 @@
+*.pyc
+__pycache__/
+*.db
+*.sqlite
+mlruns/
+mlflow.db
+data/raw.csv
+data/processed/
+models/model.pkl
+.dvc/cache/
+.dvc/tmp/
+*.log
+.DS_Store
+.idea/
+.vscode/
