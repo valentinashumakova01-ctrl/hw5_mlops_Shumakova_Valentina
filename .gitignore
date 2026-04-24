@@ -13,3 +13,4 @@ models/model.pkl
 .DS_Store
 .idea/
 .vscode/
+/metrics.json
