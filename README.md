@@ -29,22 +29,22 @@
 
 ## Как запустить проект
 
-# 1. Клонировать репозиторий
+### 1. Клонировать репозиторий
 git clone https://github.com/valentinashumakova01-ctrl/hw5_mlops_Shumakova_Valentina.git
+
 cd hw5_mlops_Shumakova_Valentina
 
-# 2. Создать и активировать виртуальное окружение
+### 2. Создать и активировать виртуальное окружение
 python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# venv\Scripts\activate   # Windows
+venv\Scripts\activate   # Windows
 
-# 3. Установить зависимости
+### 3. Установить зависимости
 pip install -r requirements.txt
 
-# 4. Воспроизвести весь пайплайн (подготовка данных + обучение)
+### 4. Воспроизвести весь пайплайн (подготовка данных + обучение)
 dvc repro
 
-# 5. Запустить MLflow UI для просмотра экспериментов
+### 5. Запустить MLflow UI для просмотра экспериментов
 mlflow ui --host 0.0.0.0 --port 5000
 
 ## Краткое описание пайплайна
@@ -74,7 +74,7 @@ mlflow ui --host 0.0.0.0 --port 5000
 
 ## Где смотреть MLflow UI
 
-## Локальный запуск (после выполнения mlflow ui)
+### Локальный запуск (после выполнения mlflow ui)
 Откройте браузер и перейдите по адресу: http://localhost:5000
 
 Вы увидите эксперимент iris_experiment
@@ -87,7 +87,7 @@ mlflow ui --host 0.0.0.0 --port 5000
 
 Артефакты: model.pkl (сохранённая модель)
 
-## В GitHub Codespaces
+### В GitHub Codespaces
 Если вы запускаете проект в Codespace (как в процессе выполнения ДЗ):
 
 После запуска mlflow ui --host 0.0.0.0 --port 5000
